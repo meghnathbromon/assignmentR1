@@ -1,0 +1,33 @@
+* {
+    font-family: "Merriweather", serif;
+}
+
+.banner {
+    background-image: url('/resources/Banner\ Image.png');
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: auto;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 177px;
+    width: 100%;
+    color: #FFF;
+}
+
+.banner-newYeartext {
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-partyText {
+    margin-top: 0px;
+    font-size: 72px;
+    font-weight: 900;
+}
