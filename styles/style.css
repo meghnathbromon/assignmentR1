@@ -200,3 +200,42 @@
     margin-top: 0px;
 
 }
+
+.best-gift-section {
+    width: 1320px;
+    height: 1163px;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.best-gift-text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.best-gift-text h2 {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.best-gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.best-gift-image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.best-gift-image-section :hover {
+    box-shadow: 10px 10px 10px gray;
+}
