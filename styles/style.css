@@ -239,3 +239,110 @@
 .best-gift-image-section :hover {
     box-shadow: 10px 10px 10px gray;
 }
+
+.newsletter-section {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.newsletter-text h1 {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+.newsletter-text P {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.newsletter-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.newsletter-field {
+    width: 648px;
+    height: 72px;
+    margin: 48px 330px 80px 330px;
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.newsletter-field input {
+    flex-grow: 1;
+    padding-left: 30px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+
+}
+
+.btn-newsletter {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+
+}
+
+.footer-style {
+    background: #070211;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    padding: 120px 140px 0 140px;
+
+}
+
+hr{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-img img{
+    margin-right: 24px;
+}
+
+.footer-anothertext{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    padding: 0px 140px 120px 140px;
+
+}
